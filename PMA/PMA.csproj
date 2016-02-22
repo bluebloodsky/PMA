@@ -1,0 +1,259 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{E3D3C307-2EDB-4925-BA58-C980FEBDC6B6}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>PMA</RootNamespace>
+    <AssemblyName>PMA</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Accessibility">
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="DevExpress.Data.v14.2, Version=14.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.Printing.v14.2.Core, Version=14.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.Sparkline.v14.2.Core, Version=14.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Utils.v14.2, Version=14.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraEditors.v14.2, Version=14.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraGrid.v14.2, Version=14.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraLayout.v14.2, Version=14.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraPrinting.v14.2, Version=14.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Emiips.DbClient">
+      <HintPath>.\Emiips.DbClient.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Office.Interop.Excel, Version=11.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c">
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.Linq" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Runtime.Serialization.Formatters.Soap" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.Transactions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="CacheData.cs" />
+    <Compile Include="Db\DbHelper.cs" />
+    <Compile Include="Db\WhnrContext.cs" />
+    <Compile Include="Entity\EntContract.cs" />
+    <Compile Include="Entity\EntUser.cs" />
+    <Compile Include="ExcelExport.cs" />
+    <Compile Include="FrmChoose.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmChoose.Designer.cs">
+      <DependentUpon>FrmChoose.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmMain.Designer.cs">
+      <DependentUpon>FrmMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmTest.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmTest.Designer.cs">
+      <DependentUpon>FrmTest.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MyMethod.cs" />
+    <Compile Include="PotProManager\FrmCreatePotPro.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PotProManager\FrmCreatePotPro.Designer.cs">
+      <DependentUpon>FrmCreatePotPro.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PotProManager\ControlPotPro.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PotProManager\ControlPotPro.Designer.cs">
+      <DependentUpon>ControlPotPro.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ProCheck\ControlPotProInfo.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ProCheck\ControlPotProInfo.Designer.cs">
+      <DependentUpon>ControlPotProInfo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ProCheck\ControlProBackInfo.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ProCheck\ControlProBackInfo.Designer.cs">
+      <DependentUpon>ControlProBackInfo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ProCheck\ControlProCheck.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ProCheck\ControlProCheck.Designer.cs">
+      <DependentUpon>ControlProCheck.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ProCheck\ControlProCostInfo.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ProCheck\ControlProCostInfo.Designer.cs">
+      <DependentUpon>ControlProCostInfo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ProCheck\ControlProExport.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ProCheck\ControlProExport.Designer.cs">
+      <DependentUpon>ControlProExport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ProCheck\ControlProIncomeInfo.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ProCheck\ControlProIncomeInfo.Designer.cs">
+      <DependentUpon>ControlProIncomeInfo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="ProManager\ControlProManager.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ProManager\ControlProManager.Designer.cs">
+      <DependentUpon>ControlProManager.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ProManager\FrmCreatePro.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProManager\FrmCreatePro.Designer.cs">
+      <DependentUpon>FrmCreatePro.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SpecialManager\ControlSpecialManager.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="SpecialManager\ControlSpecialManager.Designer.cs">
+      <DependentUpon>ControlSpecialManager.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="FrmChoose.resx">
+      <DependentUpon>FrmChoose.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmMain.resx">
+      <DependentUpon>FrmMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmTest.resx">
+      <DependentUpon>FrmTest.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PotProManager\ControlPotPro.resx">
+      <DependentUpon>ControlPotPro.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PotProManager\FrmCreatePotPro.resx">
+      <DependentUpon>FrmCreatePotPro.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProCheck\ControlPotProInfo.resx">
+      <DependentUpon>ControlPotProInfo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProCheck\ControlProBackInfo.resx">
+      <DependentUpon>ControlProBackInfo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProCheck\ControlProCheck.resx">
+      <DependentUpon>ControlProCheck.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProCheck\ControlProCostInfo.resx">
+      <DependentUpon>ControlProCostInfo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProCheck\ControlProExport.resx">
+      <DependentUpon>ControlProExport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProCheck\ControlProIncomeInfo.resx">
+      <DependentUpon>ControlProIncomeInfo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProManager\ControlProManager.resx">
+      <DependentUpon>ControlProManager.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProManager\FrmCreatePro.resx">
+      <DependentUpon>FrmCreatePro.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\licenses.licx" />
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="SpecialManager\ControlSpecialManager.resx">
+      <DependentUpon>ControlSpecialManager.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="app.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\MyControl\MyControl.csproj">
+      <Project>{AE8B3420-FE8A-4CAF-88F4-2DD25A78EC67}</Project>
+      <Name>MyControl</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

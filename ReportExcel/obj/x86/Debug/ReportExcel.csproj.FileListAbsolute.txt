@@ -1,0 +1,40 @@
+E:\Project\Isoms_Server_JingZhouV3.74\src\ReportExcel\bin\Debug\ReportExcel.exe
+E:\Project\Isoms_Server_JingZhouV3.74\src\ReportExcel\bin\Debug\ReportExcel.pdb
+E:\Project\Isoms_Server_JingZhouV3.74\src\ReportExcel\bin\Debug\Emiips.DbClient.dll
+E:\Project\Isoms_Server_JingZhouV3.74\src\ReportExcel\bin\Debug\Isoms.Entity.dll
+E:\Project\Isoms_Server_JingZhouV3.74\src\ReportExcel\bin\Debug\Isoms.GlobalCache.dll
+E:\Project\Isoms_Server_JingZhouV3.74\src\ReportExcel\bin\Debug\Emiips.Core.dll
+E:\Project\Isoms_Server_JingZhouV3.74\src\ReportExcel\bin\Debug\Emiips.DbClient.pdb
+E:\Project\Isoms_Server_JingZhouV3.74\src\ReportExcel\bin\Debug\Isoms.Entity.pdb
+E:\Project\Isoms_Server_JingZhouV3.74\src\ReportExcel\bin\Debug\Isoms.GlobalCache.pdb
+E:\Project\Isoms_Server_JingZhouV3.74\src\ReportExcel\bin\Debug\Emiips.Core.pdb
+E:\Project\Isoms_Server_JingZhouV3.74\src\ReportExcel\obj\x86\Debug\ResolveAssemblyReference.cache
+E:\Project\Isoms_Server_JingZhouV3.74\src\ReportExcel\obj\x86\Debug\ReportExcel.FrmDataOut.resources
+E:\Project\Isoms_Server_JingZhouV3.74\src\ReportExcel\obj\x86\Debug\ReportExcel.Properties.Resources.resources
+E:\Project\Isoms_Server_JingZhouV3.74\src\ReportExcel\obj\x86\Debug\GenerateResource.read.1.tlog
+E:\Project\Isoms_Server_JingZhouV3.74\src\ReportExcel\obj\x86\Debug\GenerateResource.write.1.tlog
+E:\Project\Isoms_Server_JingZhouV3.74\src\ReportExcel\obj\x86\Debug\ReportExcel.exe
+E:\Project\Isoms_Server_JingZhouV3.74\src\ReportExcel\obj\x86\Debug\ReportExcel.pdb
+E:\WORK\Project\Isoms_Server_JingZhouV3.74\src\ReportExcel\bin\Debug\ReportExcel.exe
+E:\WORK\Project\Isoms_Server_JingZhouV3.74\src\ReportExcel\bin\Debug\ReportExcel.pdb
+E:\WORK\Project\Isoms_Server_JingZhouV3.74\src\ReportExcel\bin\Debug\Emiips.DbClient.dll
+E:\WORK\Project\Isoms_Server_JingZhouV3.74\src\ReportExcel\bin\Debug\Isoms.Entity.dll
+E:\WORK\Project\Isoms_Server_JingZhouV3.74\src\ReportExcel\bin\Debug\Isoms.GlobalCache.dll
+E:\WORK\Project\Isoms_Server_JingZhouV3.74\src\ReportExcel\bin\Debug\Emiips.Core.dll
+E:\WORK\Project\Isoms_Server_JingZhouV3.74\src\ReportExcel\bin\Debug\Emiips.DbClient.pdb
+E:\WORK\Project\Isoms_Server_JingZhouV3.74\src\ReportExcel\bin\Debug\Isoms.Entity.pdb
+E:\WORK\Project\Isoms_Server_JingZhouV3.74\src\ReportExcel\bin\Debug\Isoms.GlobalCache.pdb
+E:\WORK\Project\Isoms_Server_JingZhouV3.74\src\ReportExcel\bin\Debug\Emiips.Core.pdb
+E:\WORK\Project\Isoms_Server_JingZhouV3.74\src\ReportExcel\obj\x86\Debug\ResolveAssemblyReference.cache
+E:\WORK\Project\Isoms_Server_JingZhouV3.74\src\ReportExcel\obj\x86\Debug\ReportExcel.FrmDataOut.resources
+E:\WORK\Project\Isoms_Server_JingZhouV3.74\src\ReportExcel\obj\x86\Debug\ReportExcel.Properties.Resources.resources
+E:\WORK\Project\Isoms_Server_JingZhouV3.74\src\ReportExcel\obj\x86\Debug\GenerateResource.read.1.tlog
+E:\WORK\Project\Isoms_Server_JingZhouV3.74\src\ReportExcel\obj\x86\Debug\GenerateResource.write.1.tlog
+E:\WORK\Project\Isoms_Server_JingZhouV3.74\src\ReportExcel\obj\x86\Debug\ReportExcel.exe
+E:\WORK\Project\Isoms_Server_JingZhouV3.74\src\ReportExcel\obj\x86\Debug\ReportExcel.pdb
+D:\01 Project\001 .NetProject\ContractManager\ReportExcel\obj\x86\Debug\ReportExcel.exe
+D:\01 Project\001 .NetProject\ContractManager\ReportExcel\obj\x86\Debug\ReportExcel.pdb
+D:\01 Project\001 .NetProject\ContractManager\ReportExcel\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\01 Project\001 .NetProject\ContractManager\ReportExcel\obj\x86\Debug\ReportExcel.FrmDataOut.resources
+D:\01 Project\001 .NetProject\ContractManager\ReportExcel\obj\x86\Debug\ReportExcel.Properties.Resources.resources
+D:\01 Project\001 .NetProject\ContractManager\ReportExcel\obj\x86\Debug\ReportExcel.csproj.GenerateResource.Cache

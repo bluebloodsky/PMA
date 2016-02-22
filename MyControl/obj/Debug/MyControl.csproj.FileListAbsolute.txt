@@ -1,0 +1,6 @@
+D:\01 Project\001 .NetProject\PMA\MyControl\bin\Debug\MyControl.dll
+D:\01 Project\001 .NetProject\PMA\MyControl\bin\Debug\MyControl.pdb
+D:\01 Project\001 .NetProject\PMA\MyControl\obj\Debug\MyControl.dll
+D:\01 Project\001 .NetProject\PMA\MyControl\obj\Debug\MyControl.pdb
+D:\01 Project\001 .NetProject\PMA\MyControl\obj\Debug\MyControl.dll.licenses
+D:\01 Project\001 .NetProject\PMA\MyControl\obj\Debug\MyControl.csprojResolveAssemblyReference.cache
